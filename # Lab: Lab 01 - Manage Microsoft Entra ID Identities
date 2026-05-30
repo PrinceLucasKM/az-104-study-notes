@@ -1,0 +1,46 @@
+# Lab: Lab 01 - Manage Microsoft Entra ID Identities
+
+**Module:** 2. Administer Identity, Governance and Compliance In this module learn about the following topics: Understand Microsoft Entra ID, Creating, Configuring & Managing Identities, Azure Architectural Components, Policies, RBAC, Azure Resource Deployment with Templates  
+**Date:** 2026-05-30  
+**Difficulty:** medium  
+
+## Summary
+Created and configured user accounts in Microsoft Entra ID, including properties like job title, department, and usage location.
+
+Invited an external guest user to join your tenant and confirmed the invitation process.
+
+Created a security group called IT Lab Administrators, set membership type to Assigned, and added both internal and external users.
+
+Explored tenant management features such as licenses, password reset, and navigation in the Azure portal.
+
+Reviewed group settings like expiration, naming policies, and ownership assignment.
+
+## Key concepts
+Tenant: A dedicated instance of Microsoft Entra ID representing your organization, containing accounts and groups.
+
+User Accounts: Can be internal (employees) or external (guests). Each account has properties that define access and identity.
+
+Groups:
+
+Security groups → used for access control.
+
+Microsoft 365 groups → used for collaboration.
+
+Membership Types:
+
+Static (Assigned) → admins manually add/remove members.
+
+Dynamic → membership updates automatically based on user properties (requires Entra ID Premium P1/P2).
+
+Governance: Owners manage groups, expiration policies enforce lifecycle, and naming policies ensure consistency.
+
+## Challenges
+nothing
+
+## Commands
+```bash
+none
+```
+
+---
+*AZ-104 Lab Journal*
